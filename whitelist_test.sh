@@ -1,8 +1,8 @@
 #!/bin/bash
-# Whitelist for Pi-hole (https://pi-hole.net/) (and Nebulo https://github.com/Ch4t4r/Nebulo - only txt file)
-# Based on the original script created by:
-# Anudeep - https://github.com/anudeepND
-# GSolone - https://github.com/gioxx
+#Whitelist for Pi-hole (https://pi-hole.net/) (and Nebulo https://github.com/Ch4t4r/Nebulo - only txt file)
+#Based on the original script created by
+#Anudeep - https://github.com/anudeepND
+#GSolone - https://github.com/gioxx
 #============================================================================================================
 
 TICK="[\e[32m ✔ \e[0m]"
