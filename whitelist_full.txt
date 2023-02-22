@@ -1,4 +1,4 @@
-#=========================================================Abilitazioni_host_video_e_app
+@Abilitazioni_host_video_e_app
 cdn.privatehost.com
 cdn.fluidplayer.com
 #Aliexpress_Alibaba
@@ -13,9 +13,9 @@ wchat.freshchat.com
 2mcmg31d.r.us-east-1.awstrack.me
 s3.amazonaws.com
 *.awstrack.me
-#Ampproject
+!Ampproject
 cdn.ampproject.org
-#Apple
+?Apple
 c.apple.com
 feedbackws.icloud.com
 amp-api-edge.apps.apple.com
