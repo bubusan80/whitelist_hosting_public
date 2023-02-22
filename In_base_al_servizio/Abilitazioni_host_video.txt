@@ -1,0 +1,3 @@
+########################################### Abilitazioni host video ########################
+cdn.privatehost.com
+cdn.fluidplayer.com

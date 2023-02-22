@@ -1,0 +1,13 @@
+########################################### Google servizi #################################
+mail.google.com
+play.google.com
+translate.google.com
+redirector.gvt1.com
+redirector.gvt2.com
+www.googletagmanager.com
+www-googletagmanager.l.google.com
+www.googletagservices.com
+imasdk.googleapis.com
+gstaticadssl.l.google.com
+fonts.gstatic.com
+analytics.google.com

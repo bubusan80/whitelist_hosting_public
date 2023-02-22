@@ -1,0 +1,3 @@
+########################################### Mozilla Firefox ################################
+mozilla.cloudflare-dns.com
+tracking-protection.cdn.mozilla.net
