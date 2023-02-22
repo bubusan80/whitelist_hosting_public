@@ -5,7 +5,7 @@
 # GSolone - https://github.com/gioxx
 #============================================================================================================
 
-TICK="[\e[32m ✔ \e[0m]"
+TICK="[\e[32m âœ” \e[0m]"
 PIHOLE_LOCATION="/etc/pihole"
 GRAVITY_UPDATE_COMMAND="pihole -w -q"
 
