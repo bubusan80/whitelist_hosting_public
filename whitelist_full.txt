@@ -1,4 +1,4 @@
-########################################### Abilitazioni host video e app ##################
+########################################### Abilitazioni_host_video_e_app ##################
 cdn.privatehost.com
 cdn.fluidplayer.com
 ########################################## Aliexpress_Alibaba ##############################
