@@ -1,4 +1,4 @@
-########################################### Utility varie ##################################
+# Utility varie
 rentry.co
 excalidraw.com
 v.firebog.net
