@@ -70,7 +70,7 @@ case "$1" in
 		;;
 	*)
 		echo
-		echo "Welcome and thack you for download my script."
+		echo "Welcome and thank you for download my script."
 		echo "This option for use script:"
 		echo "full"; echo "(add whitelist by anudeepND + whitelist_full.txt by bubusan80)"
 		echo "basic"; echo "(add whitelist by anudeepND + whitelist_basic.txt by bubusan80)"
