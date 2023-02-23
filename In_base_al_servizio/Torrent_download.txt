@@ -1,4 +1,4 @@
-########################################### Torrent_download ###############################
+# Torrent_download
 bittorrent.am
 extratorrent.cd
 tracker.tfile.me
