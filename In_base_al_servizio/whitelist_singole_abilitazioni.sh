@@ -28,7 +28,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	aliexpress_alibaba)
 		echo "Download... "
@@ -55,7 +55,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	ampproject)
 		echo "Download... "
@@ -68,7 +68,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	apple)
 		echo "Download... "
@@ -81,7 +81,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	bootstrapcdn)
 		echo "Download... "
@@ -94,7 +94,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	disneyplus_by_opendns)
 		echo "Download... "
@@ -107,7 +107,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	eon_energia)
 		echo "Download... "
@@ -120,7 +120,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	games_e_console)
 		echo "Download... "
@@ -133,7 +133,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	google_chrome_dns)
 		echo "Download... "
@@ -146,7 +146,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	google_servizi)
 		echo "Download... "
@@ -159,7 +159,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	iobit)
 		echo "Download... "
@@ -172,7 +172,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	microsoft_pc_e_app_su_smartphone)
 		echo "Download... "
@@ -185,7 +185,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	mozilla_firefox)
 		echo "Download... "
@@ -198,7 +198,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	netflix)
 		echo "Download... "
@@ -211,7 +211,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	operatore_tim_e_modem)
 		echo "Download... "
@@ -224,7 +224,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	paypal)
 		echo "Download... "
@@ -237,7 +237,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	rai_streaming_e_app)
 		echo "Download... "
@@ -250,7 +250,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	samsung_servizi)
 		echo "Download... "
@@ -263,7 +263,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	sisal)
 		echo "Download... "
@@ -276,7 +276,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	torrent_download)
 		echo "Download... "
@@ -289,7 +289,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	utility_varie)
 		echo "Download... "
@@ -302,7 +302,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	wisecleaner)
 		echo "Download... "
@@ -315,14 +315,14 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	upgrade)
 		echo "Upgrade shell script ..."
 		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 		chmod +x whitelist_singole_abilitazioni.sh
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	clear)
 		echo "Clean whitelist ..."
@@ -332,7 +332,7 @@ case "$1" in
 		wait
 		echo -e " ${TICK} \e[32m Pi-hole whitelist has been cleaned \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		;;
 	*)
 		echo "Option for use script:"
@@ -361,7 +361,7 @@ case "$1" in
 		echo "wisecleaner"
 		echo "upgrade"
 		echo "clear"
-		eecho -e " ${NOADS} "
+		echo -e " ${NOADS} "
 		exit 1
 		;;
 esac
