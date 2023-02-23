@@ -319,7 +319,7 @@ case "$1" in
 		;;
 	upgrade)
 		echo "Upgrade shell script ..."
-		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist_singole_abilitazioni.sh
+		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 		chmod +x whitelist_singole_abilitazioni.sh
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
