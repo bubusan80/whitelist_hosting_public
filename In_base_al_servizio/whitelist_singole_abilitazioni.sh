@@ -27,6 +27,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	aliexpress_alibaba)
 		echo "Download... "
@@ -40,6 +43,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	amazon_e_servizi_aws)
 		echo "Download... "
@@ -53,6 +59,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	ampproject)
 		echo "Download... "
@@ -66,6 +75,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	apple)
 		echo "Download... "
@@ -79,6 +91,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	bootstrapcdn)
 		echo "Download... "
@@ -92,6 +107,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	disneyplus_by_opendns)
 		echo "Download... "
@@ -105,6 +123,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	eon_energia)
 		echo "Download... "
@@ -118,6 +139,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	games_e_console)
 		echo "Download... "
@@ -131,6 +155,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	google_chrome_dns)
 		echo "Download... "
@@ -144,6 +171,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	google_servizi)
 		echo "Download... "
@@ -157,6 +187,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	iobit)
 		echo "Download... "
@@ -170,6 +203,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	microsoft_pc_e_app_su_smartphone)
 		echo "Download... "
@@ -183,6 +219,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	mozilla_Firefox)
 		echo "Download... "
@@ -196,6 +235,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	netflix)
 		echo "Download... "
@@ -209,6 +251,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	operatore_tim_e_modem)
 		echo "Download... "
@@ -222,6 +267,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	paypal)
 		echo "Download... "
@@ -235,6 +283,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	rai_streaming_e_app)
 		echo "Download... "
@@ -248,6 +299,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	samsung_servizi)
 		echo "Download... "
@@ -261,6 +315,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	sisal)
 		echo "Download... "
@@ -274,6 +331,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	torrent_download)
 		echo "Download... "
@@ -287,6 +347,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	utility_varie)
 		echo "Download... "
@@ -300,6 +363,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	wisecleaner)
 		echo "Download... "
@@ -313,6 +379,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 
 	upgrade)
@@ -320,6 +389,9 @@ case "$1" in
 		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist_test_unico.sh
 		chmod +x whitelist.sh
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	clear)
 		echo "Clean whitelist ..."
@@ -329,6 +401,10 @@ case "$1" in
 		wait
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
+		
 		;;
 
 	*)
