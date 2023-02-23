@@ -1,4 +1,4 @@
-########################################### Games(buy_games,app,periferiche...) e Console ##
+# Games_buy_games_app_periferiche..._e_Console
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
