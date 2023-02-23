@@ -349,7 +349,7 @@ case "$1" in
 		echo "google_servizi"
 		echo "iobit"
 		echo "microsoft_pc_e_app_su_smartphone"
-		echo "mozilla_Firefox"
+		echo "mozilla_firefox"
 		echo "netflix"
 		echo "operatore_tim_e_modem"
 		echo "paypal"
