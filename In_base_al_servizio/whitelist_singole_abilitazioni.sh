@@ -396,9 +396,10 @@ case "$1" in
 	clear)
 		echo "Clean whitelist ..."
 		: > "${PIHOLE_LOCATION}"/whitelist.txt
-		echo -e " [...] \e[32m Pi-hole clear whitelist... \e[0m"
+		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
 		pihole -w --nuke
 		wait
+		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
 		echo "*******************************************"
 		echo "*www.navigaresezapubblicita.altervista.org*"
@@ -407,7 +408,32 @@ case "$1" in
 		;;
 
 	*)
-		echo
+		echo "Option for use script:"
+		echo "host_video"
+		echo "aliexpress_alibaba"
+		echo "amazon_e_servizi_aws"
+		echo "ampproject"
+		echo "apple"
+		echo "bootstrapcdn"
+		echo "disneyplus_by_opendns"
+		echo "eon_energia"
+		echo "games_e_console"
+		echo "google_chrome_dns"
+		echo "google_servizi"
+		echo "iobit"
+		echo "microsoft_pc_e_app_su_smartphone"
+		echo "mozilla_Firefox"
+		echo "netflix"
+		echo "operatore_tim_e_modem"
+		echo "paypal"
+		echo "rai_streaming_e_app"
+		echo "samsung_servizi"
+		echo "sisal"
+		echo "torrent_download"
+		echo "utility_varie"
+		echo "wisecleaner"
+		echo "upgrade"
+		echo "clear"
 		echo "*******************************************"
 		echo "*www.navigaresezapubblicita.altervista.org*"
 		echo "*******************************************"
