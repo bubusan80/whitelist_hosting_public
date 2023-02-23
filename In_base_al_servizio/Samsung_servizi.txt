@@ -1,2 +1,2 @@
-# Samsung_servizi
+#Samsung_servizi
 eu-auth2.samsungosp.com

@@ -1,4 +1,4 @@
-# Disneyplus_by_Opendns
+#Disneyplus_by_Opendns
 disneyplus.com
 bamgrid.com
 bam.nr-data.net
