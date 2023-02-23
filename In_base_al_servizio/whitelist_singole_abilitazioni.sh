@@ -8,6 +8,7 @@
 TICK="[\e[32m ✔ \e[0m]"
 PIHOLE_LOCATION="/etc/pihole"
 GRAVITY_UPDATE_COMMAND="pihole -w -q"
+NOADS="*www.navigaresezapubblicita.altervista.org*"
 
 if [ "$(id -u)" != "0" ] ; then
 	echo "This script requires root permissions. Please run this as root!"
@@ -27,9 +28,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	aliexpress_alibaba)
 		echo "Download... "
@@ -38,14 +37,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		echo -e " ${NOADS} "
 		;;
 	amazon_e_servizi_aws)
 		echo "Download... "
@@ -59,9 +55,7 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	ampproject)
 		echo "Download... "
@@ -70,14 +64,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	apple)
 		echo "Download... "
@@ -86,14 +77,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	bootstrapcdn)
 		echo "Download... "
@@ -102,30 +90,24 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	disneyplus_by_opendns)
 		echo "Download... "
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Bootstrapcdn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Disneyplus_by_opendns.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	eon_energia)
 		echo "Download... "
@@ -134,14 +116,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	games_e_console)
 		echo "Download... "
@@ -150,14 +129,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	google_chrome_dns)
 		echo "Download... "
@@ -166,14 +142,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	google_servizi)
 		echo "Download... "
@@ -182,14 +155,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	iobit)
 		echo "Download... "
@@ -198,14 +168,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	microsoft_pc_e_app_su_smartphone)
 		echo "Download... "
@@ -214,30 +181,24 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
-	mozilla_Firefox)
+	mozilla_firefox)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Mozilla_Firefox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	netflix)
 		echo "Download... "
@@ -246,14 +207,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	operatore_tim_e_modem)
 		echo "Download... "
@@ -262,14 +220,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	paypal)
 		echo "Download... "
@@ -278,14 +233,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	rai_streaming_e_app)
 		echo "Download... "
@@ -294,14 +246,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	samsung_servizi)
 		echo "Download... "
@@ -310,14 +259,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	sisal)
 		echo "Download... "
@@ -326,14 +272,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	torrent_download)
 		echo "Download... "
@@ -342,14 +285,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	utility_varie)
 		echo "Download... "
@@ -358,14 +298,11 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	wisecleaner)
 		echo "Download... "
@@ -374,24 +311,18 @@ case "$1" in
 		sleep 0.3
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
-
 	upgrade)
 		echo "Upgrade shell script ..."
-		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist_test_unico.sh
-		chmod +x whitelist.sh
+		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist_singole_abilitazioni.sh
+		chmod +x whitelist_singole_abilitazioni.sh
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
+		eecho -e " ${NOADS} "
 		;;
 	clear)
 		echo "Clean whitelist ..."
@@ -401,12 +332,8 @@ case "$1" in
 		wait
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
-		
+		eecho -e " ${NOADS} "
 		;;
-
 	*)
 		echo "Option for use script:"
 		echo "host_video"
@@ -434,10 +361,7 @@ case "$1" in
 		echo "wisecleaner"
 		echo "upgrade"
 		echo "clear"
-		echo "*******************************************"
-		echo "*www.navigaresezapubblicita.altervista.org*"
-		echo "*******************************************"
-
+		eecho -e " ${NOADS} "
 		exit 1
 		;;
 esac
