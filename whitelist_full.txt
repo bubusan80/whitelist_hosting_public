@@ -3,7 +3,6 @@ cdn.privatehost.com
 cdn.fluidplayer.com
 
 #Aliexpress_Alibaba 
-
 us.ynuf.aliapp.org
 fourier.taobao.com
 track.aliexpress.com
@@ -63,7 +62,7 @@ eonitaly.tt.omtrdc.net
 siteintercept.qualtrics.com
 prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
 
-#Games(buy_games_app_periferiche..._e_Console
+#Games_buy_games_app_periferiche_e_Console
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
