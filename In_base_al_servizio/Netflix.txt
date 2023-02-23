@@ -1,4 +1,4 @@
-########################################### Netflix ########################################
+# Netflix
 netflix.com
 ichnaea.netflix.com
 appboot.netflix.com
