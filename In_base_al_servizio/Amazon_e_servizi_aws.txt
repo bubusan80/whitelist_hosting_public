@@ -1,4 +1,4 @@
-########################################## Amazon_e_servizi_aws ############################
+# Amazon_e_servizi_aws
 amzn.to
 msh.amazon.co.uk
 api.eu-west-1.aiv-delivery.net
