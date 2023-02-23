@@ -7,7 +7,7 @@
 TICK="[\e[32m ✔ \e[0m]"
 PIHOLE_LOCATION="/etc/pihole"
 GRAVITY_UPDATE_COMMAND="pihole -w -q"
-
+NOADS="*www.navigaresezapubblicita.altervista.org*"
 if [ "$(id -u)" != "0" ] ; then
 	echo "This script requires root permissions. Please run this as root!"
 	exit 2
