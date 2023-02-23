@@ -34,6 +34,9 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	basic)
 		echo "Download whitelist of anudeepND"
@@ -54,12 +57,18 @@ case "$1" in
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	upgrade)
 		echo "Upgrade shell script ..."
 		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist.sh
 		chmod +x whitelist.sh
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 	clear)
 		echo "Clean whitelist ..."
@@ -69,6 +78,9 @@ case "$1" in
 		wait
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo "*******************************************"
+		echo "*www.navigaresezapubblicita.altervista.org*"
+		echo "*******************************************"
 		;;
 
 	*)
