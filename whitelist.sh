@@ -18,13 +18,13 @@ case "$1" in
 		echo "Download whitelist of anudeepND"
 		curl -sS https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80"
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/whitelist_full.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
@@ -37,13 +37,13 @@ case "$1" in
 		echo "Download whitelist of anudeepND"
 		curl -sS https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80"
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/whitelist_basic.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
