@@ -1,12 +1,12 @@
-# Abilitazioni_host_video
+#Abilitazioni_host_video
 cdn.privatehost.com
 
-# Aliexpress_Alibaba
+#Aliexpress_Alibaba
 us.ynuf.aliapp.org
 fourier.taobao.com
 track.aliexpress.com
 
-# Amazon_e_servizi_aws
+#Amazon_e_servizi_aws
 amzn.to
 msh.amazon.co.uk
 api.eu-west-1.aiv-delivery.net
@@ -15,10 +15,10 @@ wchat.freshchat.com
 s3.amazonaws.com
 *.awstrack.me
 
-# Ampproject
+#Ampproject
 cdn.ampproject.org
 
-# Apple
+#Apple
 c.apple.com
 feedbackws.icloud.com
 amp-api-edge.apps.apple.com
@@ -29,23 +29,23 @@ amp-api-search-edge.apps-lb.itunes-apple.com.akadns.net
 sf-api-token-service.itunes.apple.com
 e673.dscx.akamaiedge.net
 
-# Bootstrapcdn
+#Bootstrapcdn
 stackpath.bootstrapcdn.com
 
-# Eon_energia
+#Eon_energia
 zn6n7kdvru4a3z1gu-eon.siteintercept.qualtrics.com
 eonitaly.tt.omtrdc.net
 siteintercept.qualtrics.com
 prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
 siteintercept.qualtrics.com
 
-# Fluidplayer
+#Fluidplayer
 cdn.fluidplayer.com
 
-# Google_Chrome
+#Google_Chrome
 chrome.cloudflare-dns.com
 
-# Games_and_Console_buy_games_app_periferiche
+#Games_and_Console_buy_games_app_periferiche
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
@@ -76,11 +76,11 @@ www.g2a.com
 static-webservicesops.akamaized.net
 a1825.dscd.akamai.net
 
-# Iobit
+#Iobit
 www.iobit.com
 cdn.iobit.com
 
-# Mandrillapp
+#Mandrillapp
 mandrillapp.com
 
 # Microsoft_e_app_su_smartphone
@@ -112,19 +112,19 @@ fp.msedge.net
 dc.services.visualstudio.com
 mem.gfx.ms
 
-# Mozilla_Firefox
+#Mozilla_Firefox
 mozilla.cloudflare-dns.com
 tracking-protection.cdn.mozilla.net
 
-# Netflix
+#Netflix
 netflix.com
 ichnaea.netflix.com
 
-# Operatore_Tim_e_modem
+#Operatore_Tim_e_modem
 www.tim.it
 ssl-metrics.tim.it
 
-# Paypal
+#Paypal
 t.paypal.com
 b.stats.paypal.com
 c.paypal.com
@@ -132,12 +132,12 @@ stats.glb.paypal.com
 dub.stats.paypal.com
 client-analytics.braintreegateway.com
 
-# Rai_tv_streaming_app
+#Rai_tv_streaming_app
 rai-italia01.wt-eu02.net
 cdn.mateti.net
 secure.gravatar.com
 
-# Servizi_Google
+#Servizi_Google
 mail.google.com
 play.google.com
 translate.google.com
@@ -149,13 +149,13 @@ www.googletagservices.com
 imasdk.googleapis.com
 gstaticadssl.l.google.com
 
-# Servizi_Samsung
+#Servizi_Samsung
 eu-auth2.samsungosp.com
 
-# Sisal
+#Sisal
 www.sisal.it
 
-# Torrent_download
+#Torrent_download
 bittorrent.am
 extratorrent.cd
 tracker.tfile.me
@@ -168,13 +168,13 @@ yts.ag
 extratorrent.cd
 torrentz2.eu
 
-# Utility_varie
+#Utility_varie
 rentry.co
 excalidraw.com
 v.firebog.net
 raw.githubusercontent.com
 github.com
 
-# Wisecleaner
+#Wisecleaner
 wisecleaner.com
 downloads.wisecleaner.com
