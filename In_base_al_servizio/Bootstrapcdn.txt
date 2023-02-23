@@ -1,2 +1,0 @@
-# Bootstrapcdn
-stackpath.bootstrapcdn.com
