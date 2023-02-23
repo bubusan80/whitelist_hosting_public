@@ -1,30 +1,24 @@
-################################################## 
-# Servizi Google #########################
-################################################## 
-mail.google.com
-play.google.com
-translate.google.com
-redirector.gvt1.com
-redirector.gvt2.com
-www.googletagmanager.com
-www-googletagmanager.l.google.com
-www.googletagservices.com
-imasdk.googleapis.com
-gstaticadssl.l.google.com
+# Abilitazioni_host_video
+cdn.privatehost.com
 
-################################################## 
-# ampproject #####################################
-################################################## 
+# Aliexpress_Alibaba
+us.ynuf.aliapp.org
+fourier.taobao.com
+track.aliexpress.com
+
+# Amazon_e_servizi_aws
+amzn.to
+msh.amazon.co.uk
+api.eu-west-1.aiv-delivery.net
+wchat.freshchat.com
+2mcmg31d.r.us-east-1.awstrack.me
+s3.amazonaws.com
+*.awstrack.me
+
+# Ampproject
 cdn.ampproject.org
 
-################################################## 
-# Servizi Samsung ################################
-################################################## 
-eu-auth2.samsungosp.com
-
-################################################## 
-# Servizi Apple ##################################
-################################################## 
+# Apple
 c.apple.com
 feedbackws.icloud.com
 amp-api-edge.apps.apple.com
@@ -35,31 +29,23 @@ amp-api-search-edge.apps-lb.itunes-apple.com.akadns.net
 sf-api-token-service.itunes.apple.com
 e673.dscx.akamaiedge.net
 
-################################################## 
-# Amazon e servizi aws ###########################
-################################################## 
-amzn.to
-msh.amazon.co.uk
-api.eu-west-1.aiv-delivery.net
-wchat.freshchat.com
-2mcmg31d.r.us-east-1.awstrack.me
-s3.amazonaws.com
-*.awstrack.me
+# Bootstrapcdn
+stackpath.bootstrapcdn.com
 
-################################################## 
-# Mozilla Firefox ################################
-################################################## 
-mozilla.cloudflare-dns.com
-tracking-protection.cdn.mozilla.net
+# Eon_energia
+zn6n7kdvru4a3z1gu-eon.siteintercept.qualtrics.com
+eonitaly.tt.omtrdc.net
+siteintercept.qualtrics.com
+prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
+siteintercept.qualtrics.com
 
-##################################################
-# Chrome #########################################
-################################################## 
+# Fluidplayer
+cdn.fluidplayer.com
+
+# Google_Chrome
 chrome.cloudflare-dns.com
 
-################################################## 
-# Games and Console (buy_games_app,periferiche..)#
-################################################## 
+# Games_and_Console_buy_games_app_periferiche
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
@@ -90,114 +76,14 @@ www.g2a.com
 static-webservicesops.akamaized.net
 a1825.dscd.akamai.net
 
-################################################## 
-# Paypal #########################################
-################################################## 
-t.paypal.com
-b.stats.paypal.com
-c.paypal.com
-stats.glb.paypal.com
-dub.stats.paypal.com
-client-analytics.braintreegateway.com
-
-################################################## 
-# Operatore Tim e modem ##########################
-################################################## 
-www.tim.it
-ssl-metrics.tim.it
-
-################################################## 
-# Fluidplayer ####################################
-################################################## 
-cdn.fluidplayer.com
-
-################################################## 
-# Tv e app Rai####################################
-################################################## 
-rai-italia01.wt-eu02.net
-cdn.mateti.net
-secure.gravatar.com
-
-################################################## 
-# Netflix ########################################
-################################################## 
-netflix.com
-ichnaea.netflix.com
-
-################################################## 
-# Aliexpress/Alibaba #############################
-################################################## 
-us.ynuf.aliapp.org
-fourier.taobao.com
-track.aliexpress.com
-
-################################################## 
-# Iobit ##########################################
-################################################## 
+# Iobit
 www.iobit.com
 cdn.iobit.com
 
-################################################## 
-# Torrent_download ###############################
-################################################## 
-bittorrent.am
-extratorrent.cd
-tracker.tfile.me
-tracker.btzoo.eu
-tracker.zond.org
-tracker.trackerfix.com
-bigtorrent.org
-torrentprivacy.com
-yts.ag
-extratorrent.cd
-torrentz2.eu
-
-##################################################
-# abilitazione host video ########################
-##################################################
-cdn.privatehost.com
-
-##################################################
-# WISECLEANER ####################################
-################################################## 
-downloads.wisecleaner.com
-
-################################################## 
-# bootstrapcdn ###################################
-################################################## 
-stackpath.bootstrapcdn.com
-
-################################################## 
-# mandrillapp ####################################
-################################################## 
+# Mandrillapp
 mandrillapp.com
 
-################################################## 
-# SISAL ##########################################
-################################################## 
-www.sisal.it
-
-################################################## 
-# Sito EON energia ###############################
-################################################## 
-zn6n7kdvru4a3z1gu-eon.siteintercept.qualtrics.com
-eonitaly.tt.omtrdc.net
-siteintercept.qualtrics.com
-prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
-siteintercept.qualtrics.com
-
-################################################## 
-# Utility varie ##################################
-################################################## 
-rentry.co
-excalidraw.com
-v.firebog.net
-raw.githubusercontent.com
-github.com
-
-################################################## 
-# MICROSOFT e app su smartphone ##################
-################################################## 
+# Microsoft_e_app_su_smartphone
 c.msn.com
 c.bing.com
 v10.vortex-win.data.microsoft.com
@@ -225,3 +111,70 @@ arc.msn.com
 fp.msedge.net
 dc.services.visualstudio.com
 mem.gfx.ms
+
+# Mozilla_Firefox
+mozilla.cloudflare-dns.com
+tracking-protection.cdn.mozilla.net
+
+# Netflix
+netflix.com
+ichnaea.netflix.com
+
+# Operatore_Tim_e_modem
+www.tim.it
+ssl-metrics.tim.it
+
+# Paypal
+t.paypal.com
+b.stats.paypal.com
+c.paypal.com
+stats.glb.paypal.com
+dub.stats.paypal.com
+client-analytics.braintreegateway.com
+
+# Rai_tv_streaming_app
+rai-italia01.wt-eu02.net
+cdn.mateti.net
+secure.gravatar.com
+
+# Servizi_Google
+mail.google.com
+play.google.com
+translate.google.com
+redirector.gvt1.com
+redirector.gvt2.com
+www.googletagmanager.com
+www-googletagmanager.l.google.com
+www.googletagservices.com
+imasdk.googleapis.com
+gstaticadssl.l.google.com
+
+# Servizi_Samsung
+eu-auth2.samsungosp.com
+
+# Sisal
+www.sisal.it
+
+# Torrent_download
+bittorrent.am
+extratorrent.cd
+tracker.tfile.me
+tracker.btzoo.eu
+tracker.zond.org
+tracker.trackerfix.com
+bigtorrent.org
+torrentprivacy.com
+yts.ag
+extratorrent.cd
+torrentz2.eu
+
+# Utility_varie
+rentry.co
+excalidraw.com
+v.firebog.net
+raw.githubusercontent.com
+github.com
+
+# Wisecleaner
+wisecleaner.com
+downloads.wisecleaner.com
