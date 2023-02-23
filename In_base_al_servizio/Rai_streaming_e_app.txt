@@ -1,0 +1,14 @@
+# Rai_streaming_e_app
+rai-italia01.wt-eu02.net
+cdn.mateti.net
+secure.gravatar.com
+googletagservices.com
+c.neodatagroup.com
+responder.wt-safetag.com
+cdns.gigya.com
+cdns.eu1.gigya.com
+cdns3.gigya.com
+cdns2.gigya.com
+cdns1.gigya.com
+imasdk.googleapis.com
+gstaticadssl.l.google.com

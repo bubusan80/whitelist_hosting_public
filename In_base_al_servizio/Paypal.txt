@@ -1,0 +1,7 @@
+# Paypal
+t.paypal.com
+b.stats.paypal.com
+c.paypal.com
+stats.glb.paypal.com
+dub.stats.paypal.com
+client-analytics.braintreegateway.com

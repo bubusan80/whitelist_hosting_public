@@ -1,0 +1,8 @@
+# Netflix
+netflix.com
+ichnaea.netflix.com
+appboot.netflix.com
+customerevents.netflix.com
+movies.netflix.com
+nccp.netflix.com
+secure.netflix.com
