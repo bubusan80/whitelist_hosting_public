@@ -1,11 +1,14 @@
-#host_video
+# Abilitazioni_host_video_e_app
 cdn.privatehost.com
 cdn.fluidplayer.com
-# Aliexpress Alibaba
+
+# Aliexpress_Alibaba 
+
 us.ynuf.aliapp.org
 fourier.taobao.com
 track.aliexpress.com
 
+# Amazon_e_servizi_aws 
 amzn.to
 msh.amazon.co.uk
 api.eu-west-1.aiv-delivery.net
@@ -14,8 +17,10 @@ wchat.freshchat.com
 s3.amazonaws.com
 *.awstrack.me
 
+# Ampproject 
 cdn.ampproject.org
 
+# Apple 
 c.apple.com
 feedbackws.icloud.com
 amp-api-edge.apps.apple.com
@@ -35,8 +40,10 @@ gs.apple.com
 itunes.apple.com
 mzstatic.com
 
+# Bootstrapcdn
 stackpath.bootstrapcdn.com
 
+# Disneyplus_by_opendns 
 disneyplus.com
 bamgrid.com
 bam.nr-data.net
@@ -50,11 +57,13 @@ disney-plus.net
 dssott.com
 adobedtm.com
 
+# Eon_energia
 zn6n7kdvru4a3z1gu-eon.siteintercept.qualtrics.com
 eonitaly.tt.omtrdc.net
 siteintercept.qualtrics.com
 prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
 
+# Games(buy_games_app_periferiche..._e_Console
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
@@ -143,6 +152,7 @@ xflight.xboxlive.com
 xsts.auth.xboxlive.com
 xtelogin.xbox.com
 
+# Google_servizi
 mail.google.com
 play.google.com
 translate.google.com
@@ -156,11 +166,14 @@ gstaticadssl.l.google.com
 fonts.gstatic.com
 analytics.google.com
 
+# Google_chrome_dns
 chrome.cloudflare-dns.com
 
+# Iobit
 www.iobit.com
 cdn.iobit.com
 
+# Microsoft_pc_e_app_su_smartphone
 c.msn.com
 c.bing.com
 office.com
@@ -216,9 +229,11 @@ teams.microsoft.com
 wns.windows.com
 vortex.data.microsoft.com
 
+# Mozilla_Firefox
 mozilla.cloudflare-dns.com
 tracking-protection.cdn.mozilla.net
 
+# Netflix
 netflix.com
 ichnaea.netflix.com
 appboot.netflix.com
@@ -227,9 +242,11 @@ movies.netflix.com
 nccp.netflix.com
 secure.netflix.com
 
+# Operatore_Tim_e_modem
 www.tim.it
 ssl-metrics.tim.it
 
+# Paypal
 t.paypal.com
 b.stats.paypal.com
 c.paypal.com
@@ -237,6 +254,7 @@ stats.glb.paypal.com
 dub.stats.paypal.com
 client-analytics.braintreegateway.com
 
+# Rai_streaming_e_app
 rai-italia01.wt-eu02.net
 cdn.mateti.net
 secure.gravatar.com
@@ -249,8 +267,10 @@ cdns3.gigya.com
 cdns2.gigya.com
 cdns1.gigya.com
 
+# Samsung_servizi
 eu-auth2.samsungosp.com
 
+# Torrent_download
 bittorrent.am
 extratorrent.cd
 tracker.tfile.me
@@ -262,8 +282,10 @@ torrentprivacy.com
 yts.ag
 torrentz2.eu
 
+# Sisal
 www.sisal.it
 
+# Utility_varie
 rentry.co
 excalidraw.com
 v.firebog.net
@@ -271,5 +293,6 @@ raw.githubusercontent.com
 github.com
 mandrillapp.com
 
+# Wisecleaner
 wisecleaner.com
 downloads.wisecleaner.com
