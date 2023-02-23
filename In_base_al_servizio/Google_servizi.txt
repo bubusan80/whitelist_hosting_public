@@ -1,4 +1,4 @@
-########################################### Google servizi #################################
+# Servizi_Google
 mail.google.com
 play.google.com
 translate.google.com
