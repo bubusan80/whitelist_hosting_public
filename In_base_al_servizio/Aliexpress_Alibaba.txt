@@ -1,4 +1,4 @@
-########################################## Aliexpress_Alibaba ##############################
+# Aliexpress_Alibaba
 us.ynuf.aliapp.org
 fourier.taobao.com
 track.aliexpress.com
