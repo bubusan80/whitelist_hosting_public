@@ -27,7 +27,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	aliexpress_alibaba)
@@ -40,7 +40,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
 	amazon_e_servizi_aws)
@@ -54,7 +54,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	ampproject)
@@ -67,7 +67,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	apple)
@@ -80,7 +80,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	bootstrapcdn)
@@ -93,7 +93,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	disneyplus_by_opendns)
@@ -106,7 +106,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	eon_energia)
@@ -119,7 +119,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	games_e_console)
@@ -132,7 +132,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	google_chrome_dns)
@@ -145,7 +145,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	google_servizi)
@@ -158,7 +158,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	iobit)
@@ -171,7 +171,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	microsoft_pc_e_app_su_smartphone)
@@ -184,7 +184,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	mozilla_firefox)
@@ -197,7 +197,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	netflix)
@@ -210,7 +210,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	operatore_tim_e_modem)
@@ -223,7 +223,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	paypal)
@@ -236,7 +236,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	rai_streaming_e_app)
@@ -249,7 +249,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	samsung_servizi)
@@ -262,7 +262,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	sisal)
@@ -275,7 +275,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	torrent_download)
@@ -288,7 +288,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	utility_varie)
@@ -301,7 +301,7 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	wisecleaner)
@@ -314,24 +314,24 @@ case "$1" in
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	upgrade)
 		echo "Upgrade shell script ..."
 		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist_singole_abilitazioni.sh
 		chmod +x whitelist_singole_abilitazioni.sh
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	clear)
 		echo "Clean whitelist ..."
 		: > "${PIHOLE_LOCATION}"/whitelist.txt
-		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
 		pihole -w --nuke
 		wait
-		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
-		echo -e " ${TICK} \e[32m Done! \e[0m"
+		echo -e " ${TICK} \e[32m Pi-hole whitelist has been cleaned \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		eecho -e " ${NOADS} "
 		;;
 	*)
