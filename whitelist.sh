@@ -54,7 +54,7 @@ case "$1" in
 		;;
 	upgrade)
 		echo "Upgrade shell script ..."
-		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_pihole_nebulo/main/whitelist.sh
+		wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/whitelist.sh
 		chmod +x whitelist.sh
 		echo -e " ${TICK} \e[32m Done! \e[0m"
 		echo -e " ${NOADS} "
