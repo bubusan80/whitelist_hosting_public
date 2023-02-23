@@ -1,2 +1,2 @@
-########################################### Google_chrome_dns ##############################
+# Google_chrome_dns
 chrome.cloudflare-dns.com
