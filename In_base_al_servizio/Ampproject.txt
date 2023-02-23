@@ -1,2 +1,0 @@
-# Ampproject 
-cdn.ampproject.org
