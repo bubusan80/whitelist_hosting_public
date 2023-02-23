@@ -1,4 +1,4 @@
-########################################### Paypal #########################################
+# Paypal
 t.paypal.com
 b.stats.paypal.com
 c.paypal.com
