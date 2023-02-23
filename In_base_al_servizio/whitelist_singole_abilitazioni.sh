@@ -19,7 +19,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Abilitazioni_host_video.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 
@@ -33,7 +33,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Aliexpress_Alibaba.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -46,7 +46,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Amazon_e_servizi_aws.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 
@@ -60,7 +60,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Ampproject.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -73,7 +73,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Apple.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -86,7 +86,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Bootstrapcdn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -99,7 +99,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Disneyplus_by_opendns.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -112,7 +112,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -125,7 +125,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_e_console.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -138,7 +138,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Google_chrome_dns.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -151,7 +151,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Google_servizi.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -164,7 +164,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Iobit.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -177,7 +177,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Microsoft_pc_e_app_su_smartphone.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -190,7 +190,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Mozilla_Firefox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -203,7 +203,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Netflix.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -216,7 +216,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Operatore_Tim_e_modem.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -229,7 +229,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paypal.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -242,7 +242,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Rai_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -255,7 +255,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Samsung_servizi.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -268,7 +268,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Sisal.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -281,7 +281,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Torrent_download.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -294,7 +294,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Utility_varie.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
@@ -307,7 +307,7 @@ case "$1" in
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-		sleep 0.3
+		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
