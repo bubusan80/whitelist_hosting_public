@@ -1,7 +1,7 @@
 #!/bin/bash
 # Whitelist for Pi-hole (https://pi-hole.net/) (and Nebulo https://github.com/Ch4t4r/Nebulo - only txt file)
 # Based on the original script created by: GSolone - https://github.com/gioxx
-# The Anudeep whitelist is also used in this script - https://github.com/anudeepND
+# The anudeepND whitelist is also used in this script - https://github.com/anudeepND
 #============================================================================================================
 
 TICK="[\e[32m ✔ \e[0m]"
@@ -70,11 +70,12 @@ case "$1" in
 		;;
 	*)
 		echo
-		echo "Option for use script:"
-		echo "full"
-		echo "basic"
-		echo "upgrade"
-		echo "clear"
+		echo "Welcome and thack you for download my script."
+		echo "This option for use script:"
+		echo "full"; echo "(add whitelist by anudeepND + whitelist_full.txt by bubusan80)"
+		echo "basic"; echo "(add whitelist by anudeepND + whitelist_basic.txt by bubusan80)"
+		echo "upgrade"; echo "(download and upgrade latest script whitelist.sh from GitHub)"
+		echo "clear"; echo "(Warning: Delete Pi-hole's whitelist all content, no backup executed)"
 		echo "example: sudo ./whitelist.sh full"
 		echo -e " ${NOADS} "
 		exit 1
