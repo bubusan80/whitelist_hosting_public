@@ -12,7 +12,7 @@ telemetry-console.api.playstation.com
 telemetry-cii.api.playstation.com
 xbox.com
 c.xbox.com
-www.xboxlive.com
+xboxlive.com
 tracking.epicgames.com
 api.epicgames.dev
 telemetry.svc.halowaypoint.com
