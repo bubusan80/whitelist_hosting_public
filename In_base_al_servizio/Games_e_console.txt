@@ -19,7 +19,7 @@ telemetry.svc.halowaypoint.com
 aem.playstation.com.ssl.d1.sc.omtrdc.net
 telemetry-in.battle.net
 cdp.cloud.unity3d.com
-www.kinguin.net
+kinguin.net
 *.gog.com
 support.hyperx.com
 link.steelseries.com
