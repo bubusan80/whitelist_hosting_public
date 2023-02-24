@@ -24,7 +24,7 @@ www.kinguin.net
 support.hyperx.com
 link.steelseries.com
 url2867.legacygames.com
-www.g2a.com
+g2a.com
 static-webservicesops.akamaized.net
 a1825.dscd.akamai.net
 activity.windows.com
@@ -79,7 +79,7 @@ v10.vortex-win.data.microsoft.com
 v20.events.data.microsoft.com
 video.xbox.com
 windowsphone.xbox.com
-www.xbox.com
+xbox.com
 xbox.ipv6.microsoft.com
 xboxexperiencesprod.experimentation.xboxlive.com
 xboxlive.com
