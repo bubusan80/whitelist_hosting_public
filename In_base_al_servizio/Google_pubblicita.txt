@@ -1,0 +1,4 @@
+#Google_sblocco_pubblicità_devono_essereabilitati_anche_gli_altri_gruppi_google
+pagead2.googleadservices.com
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
