@@ -11,6 +11,3 @@ imasdk.googleapis.com
 gstaticadssl.l.google.com
 fonts.gstatic.com
 analytics.google.com
-tpc.googlesyndication.com
-pagead2.googlesyndication.com
-pagead2.googleadservices.com
