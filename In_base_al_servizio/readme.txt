@@ -18,7 +18,8 @@
 # wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 # Una volta scaricato è necessario dare un comando per rendere il file eseguibile:
 # chmod u+x whitelist_singole_abilitazioni.sh
-# Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto inserire nella whitelist del pihole è possibile scegliere il comando da lanciare.
+# Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto inserire nella whitelist del pihole è possibile scegliere
+# il comando da lanciare.
 # Per abilitare il servizio/sito web host_video:
 # sudo ./whitelist_singole_abilitazioni.sh host_video 
 # Per abilitare il servizio/sito web aliexpress_alibaba eseguire il seguente comando:
@@ -65,9 +66,11 @@
 # sudo ./whitelist_singole_abilitazioni.sh utility_varie
 # Per abilitare il servizio/sito web wisecleaner eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh web wisecleaner
-# In futuro molto propabilmente sarà necessario effettuare un aggiornamento allo script prima di lanciarlo nuovamente, è quindi presente anche l'opzione upgrade:
+# In futuro molto propabilmente sarà necessario effettuare un aggiornamento allo script prima di lanciarlo nuovamente, è quindi presente 
+# anche l'opzione upgrade:
 sudo ./whitelist_singole_abilitazioni.sh upgrade
-# Ultima opzione è la cancellazione completa della whitelist del pihole, Attenzione ad eseguire questo comando in quanto ripeto effettuerà la cancellazione completa di tutta la whitelist è vostro compito effettuare un backup prima:
+# Ultima opzione è la cancellazione completa della whitelist del pihole, Attenzione ad eseguire questo comando in quanto ripeto effettuerà 
+# la cancellazione completa di tutta la whitelist è vostro compito effettuare un backup prima:
 # sudo ./whitelist_singole_abilitazioni.sh clear
 # ==========================================================================================================================================
 # In English language:
