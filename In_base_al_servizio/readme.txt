@@ -11,7 +11,8 @@
 # Viene pubblicato per evitare falsi positivi nelle liste usate sul pihole.
 # Per installazione lo script saranno necessari i seguenti passaggi:
 # Aprire il terminal su raspberry o sul dispositivo dove avete installato il pihole.
-# Rechiamoci in una cartella a piacere per scaricare il file, consiglio la Downloads del proprio profilo prima di scaricare il file nel mio esempio effettuato sul raspberry effettueremo il comando per entrare nella relatica cartella:
+# Rechiamoci in una cartella a piacere per scaricare il file, consiglio la cartella Downloads del proprio profilo, prima di scaricare il file.
+# Nel mio caso ed esempio, il tutto viene effettuato sul raspberry, quindi viene effettuato il comando per entrare nella relatica cartella:
 # cd Downloads
 # Ora effettuaimo il comando per scaricare lo script:
 # wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
