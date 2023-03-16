@@ -20,57 +20,57 @@
 # chmod u+x script.sh
 # Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto inserire nella whitelist del pihole è possibile scegliere il comando da lanciare.
 # Per abilitare il servizio/sito web host_video:
-# sudo whitelist.sh host_video
+# sudo ./whitelist_singole_abilitazioni.sh host_video
 # Per abilitare il servizio/sito web host_video:
-# sudo whitelist.sh host_video 
+# sudo ./whitelist_singole_abilitazioni.sh host_video 
 # Per abilitare il servizio/sito web aliexpress_alibaba eseguire il seguente comando:
-# sudo whitelist.sh aliexpress_alibaba
+# sudo ./whitelist_singole_abilitazioni.sh aliexpress_alibaba
 # Per abilitare il servizio/sito web amazon_e_servizi_aws eseguire il seguente comando:
-# sudo whitelist.sh amazon_e_servizi_aws
+# sudo ./whitelist_singole_abilitazioni.sh amazon_e_servizi_aws
 # Per abilitare il servizio/sito web ampproject eseguire il seguente comando:
-# sudo whitelist.sh ampproject
+# sudo ./whitelist_singole_abilitazioni.sh ampproject
 # Per abilitare il servizio/sito web apple eseguire il seguente comando:
-# sudo whitelist.sh apple
+# sudo ./whitelist_singole_abilitazioni.sh apple
 # Per abilitare il servizio/sito web bootstrapcdn eseguire il seguente comando:
-# sudo whitelist.sh bootstrapcdn
+# sudo ./whitelist_singole_abilitazioni.sh bootstrapcdn
 # Per abilitare il servizio/sito web disneyplus_by_opendns eseguire il seguente comando:
-# sudo whitelist.sh disneyplus_by_opendns
+# sudo ./whitelist_singole_abilitazioni.sh disneyplus_by_opendns
 # Per abilitare il servizio/sito web eon_energia eseguire il seguente comando:
-# sudo whitelist.sh eon_energia
+# sudo ./whitelist_singole_abilitazioni.sh eon_energia
 # Per abilitare il servizio/sito web games_e_console eseguire il seguente comando:
-# sudo whitelist.sh games_e_console
+# sudo ./whitelist_singole_abilitazioni.sh games_e_console
 # Per abilitare il servizio/sito web google_chrome_dns eseguire il seguente comando:
-# sudo whitelist.sh google_chrome_dn
+# sudo ./whitelist_singole_abilitazioni.sh google_chrome_dn
 # Per abilitare il servizio/sito web google_servizi eseguire il seguente comando:
-# sudo whitelist.sh google_servizi
+# sudo ./whitelist_singole_abilitazioni.sh google_servizi
 # Per abilitare il servizio/sito web iobit eseguire il seguente comando:
-# sudo whitelist.sh iobit
+# sudo ./whitelist_singole_abilitazioni.sh iobit
 # Per abilitare il servizio/sito web microsoft_pc_e_app_su_smartphone eseguire il seguente comando:
-# sudo whitelist.sh microsoft_pc_e_app_su_smartphone
+# sudo ./whitelist_singole_abilitazioni.sh microsoft_pc_e_app_su_smartphone
 # Per abilitare il servizio/sito web mozilla_firefox eseguire il seguente comando:
-# sudo whitelist.sh mozilla_firefox
+# sudo ./whitelist_singole_abilitazioni.sh mozilla_firefox
 # Per abilitare il servizio/sito web netflix eseguire il seguente comando:
-# sudo whitelist.sh netflix
+# sudo ./whitelist_singole_abilitazioni.sh netflix
 # Per abilitare il servizio/sito web operatore_tim_e_modem eseguire il seguente comando:
-# sudo whitelist.sh operatore_tim_e_modem
+# sudo ./whitelist_singole_abilitazioni.sh operatore_tim_e_modem
 # Per abilitare il servizio/sito web paypal eseguire il seguente comando:
-# sudo whitelist.sh paypal
+# sudo ./whitelist_singole_abilitazioni.sh paypal
 # Per abilitare il servizio/sito web rai_streaming_e_app eseguire il seguente comando:
-# sudo whitelist.sh rai_streaming_e_app
+# sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
 # Per abilitare il servizio/sito web samsung_servizi eseguire il seguente comando:
-# sudo whitelist.shsamsung_servizi
+# sudo ./whitelist_singole_abilitazioni.shsamsung_servizi
 # Per abilitare il servizio/sito web sisal eseguire il seguente comando:
-# sudo whitelist.sh sisal
+# sudo ./whitelist_singole_abilitazioni.sh sisal
 # Per abilitare il servizio/sito web torrent_download eseguire il seguente comando:
-# sudo whitelist.sh torrent_download
+# sudo ./whitelist_singole_abilitazioni.sh torrent_download
 # Per abilitare il servizio/sito web utility_varie eseguire il seguente comando:
-# sudo whitelist.sh utility_varie
+# sudo ./whitelist_singole_abilitazioni.sh utility_varie
 # Per abilitare il servizio/sito web wisecleaner eseguire il seguente comando:
-# sudo whitelist.sh web wisecleaner
+# sudo ./whitelist_singole_abilitazioni.sh web wisecleaner
 # In futuro molto propabilmente sarà necessario effettuare un aggiornamento allo script prima di lanciarlo nuovamente, è quindi presente anche l'opzione upgrade:
-sudo whitelist.sh upgrade
+sudo ./whitelist_singole_abilitazioni.sh upgrade
 # Ultima opzione è la cancellazione completa della whitelist del pihole, Attenzione ad eseguire questo comando in quanto ripeto effettuerà la cancellazione completa di tutta la whitelist è vostro compito effettuare un backup prima:
-# sudo whitelist.sh clear
+# sudo ./whitelist_singole_abilitazioni.sh clear
 # ==========================================================================================================================================
 # In English language:
 # This list (destined to grow over time) is drawn up based on the service (or website) you want to use.
