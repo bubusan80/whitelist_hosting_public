@@ -9,9 +9,8 @@
 # In Italian language: 
 # Questo elenco (destinato a crescere nel tempo) viene redatto in base al servizio (oppure al sito web) che si vuole utilizzare.
 # Viene pubblicato per evitare falsi positivi nelle liste usate sul pihole.
-# Sul raspberry o sul pc/server/etc. dove è installato il pihole aprire il terminale verificare o andare sulla home del proprio profilo
-# Installazione script:
-# Aprire il terminal su raspberry o sul dispositivo dove avete installato il pihole
+# Per installazione lo script saranno necessari i seguenti passaggi:
+# Aprire il terminal su raspberry o sul dispositivo dove avete installato il pihole.
 # Rechiamoci in una cartella a piacere per scaricare il file, consiglio la Downloads del proprio profilo prima di scaricare il file nel mio esempio effettuato sul raspberry effettueremo il comando per entrare nella relatica cartella:
 # cd Downloads
 # Ora effettuaimo il comando per scaricare lo script:
@@ -19,8 +18,6 @@
 # Una volta scaricato è necessario dare un comando per rendere il file eseguibile:
 # chmod u+x whitelist_singole_abilitazioni.sh
 # Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto inserire nella whitelist del pihole è possibile scegliere il comando da lanciare.
-# Per abilitare il servizio/sito web host_video:
-# sudo ./whitelist_singole_abilitazioni.sh host_video
 # Per abilitare il servizio/sito web host_video:
 # sudo ./whitelist_singole_abilitazioni.sh host_video 
 # Per abilitare il servizio/sito web aliexpress_alibaba eseguire il seguente comando:
