@@ -17,7 +17,7 @@
 # Ora effettuaimo il comando per scaricare lo script:
 # wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 # Una volta scaricato è necessario dare un comando per rendere il file eseguibile:
-# chmod u+x script.sh
+# chmod u+x whitelist_singole_abilitazioni.sh
 # Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto inserire nella whitelist del pihole è possibile scegliere il comando da lanciare.
 # Per abilitare il servizio/sito web host_video:
 # sudo ./whitelist_singole_abilitazioni.sh host_video
