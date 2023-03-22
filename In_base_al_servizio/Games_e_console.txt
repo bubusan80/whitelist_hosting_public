@@ -79,10 +79,8 @@ v10.vortex-win.data.microsoft.com
 v20.events.data.microsoft.com
 video.xbox.com
 windowsphone.xbox.com
-xbox.com
 xbox.ipv6.microsoft.com
 xboxexperiencesprod.experimentation.xboxlive.com
-xboxlive.com
 xflight.xboxlive.com
 xsts.auth.xboxlive.com
 xtelogin.xbox.com
