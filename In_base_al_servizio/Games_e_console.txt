@@ -1,4 +1,4 @@
-#Games_buy_games_app_periferiche_e_Console
+#PC_Games_Programmi_per_Games_Periferiche
 ekg.riotgames.com
 proxy.novafusion.ea.com
 adsrv.ea.com
@@ -6,17 +6,9 @@ telemetry.simcity.com
 insights-collector.newrelic.com
 metric-api.newrelic.com
 ingame-news.ubi.com
-telemetry.api.playstation.com
-smetrics.aem.playstation.com
-telemetry-console.api.playstation.com
-telemetry-cii.api.playstation.com
-xbox.com
-c.xbox.com
-xboxlive.com
 tracking.epicgames.com
 api.epicgames.dev
 telemetry.svc.halowaypoint.com
-aem.playstation.com.ssl.d1.sc.omtrdc.net
 telemetry-in.battle.net
 cdp.cloud.unity3d.com
 kinguin.net
@@ -27,6 +19,13 @@ url2867.legacygames.com
 g2a.com
 static-webservicesops.akamaized.net
 a1825.dscd.akamai.net
+#PLAYSTATION
+telemetry.api.playstation.com
+smetrics.aem.playstation.com
+telemetry-console.api.playstation.com
+telemetry-cii.api.playstation.com
+aem.playstation.com.ssl.d1.sc.omtrdc.net
+#XBOX
 activity.windows.com
 account.xbox.com
 arc.msn.com
@@ -35,6 +34,7 @@ attestation.xboxlive.com
 authoring.xbox.com
 blog.xbox.com
 blogs.xbox.com
+c.xbox.com
 cert.mgt.xboxlive.com
 clientconfig.passport.net
 client-s.gateway.messenger.live.com
@@ -79,7 +79,10 @@ v10.vortex-win.data.microsoft.com
 v20.events.data.microsoft.com
 video.xbox.com
 windowsphone.xbox.com
+xbox.com
+www.xbox.com
 xbox.ipv6.microsoft.com
+xboxlive.com
 xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com
 xsts.auth.xboxlive.com
