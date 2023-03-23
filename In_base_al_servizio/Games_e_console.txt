@@ -25,6 +25,10 @@ smetrics.aem.playstation.com
 telemetry-console.api.playstation.com
 telemetry-cii.api.playstation.com
 aem.playstation.com.ssl.d1.sc.omtrdc.net
+liveupdate01.asus.com
+store.steampowered.com
+ubisoftconnect.com
+blizzard.com
 #XBOX
 activity.windows.com
 account.xbox.com
