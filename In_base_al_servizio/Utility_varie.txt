@@ -4,4 +4,6 @@ excalidraw.com
 v.firebog.net
 raw.githubusercontent.com
 github.com
-mandrillapp.com
+mandrillapp.comchiark.greenend.org.uk
+greenend.org.uk
+chiark.greenend.org.uk
