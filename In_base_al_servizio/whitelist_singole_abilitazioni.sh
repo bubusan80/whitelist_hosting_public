@@ -554,7 +554,6 @@ case "$1" in
 		echo "wisecleaner"
 		echo "All"
 		echo "All_no_google"
-		echo "wisecleaner"
 		echo "upgrade"
 		echo "clear"
 		echo -e " ${NOADS} "
