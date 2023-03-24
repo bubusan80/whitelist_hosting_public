@@ -1,12 +1,11 @@
 Whitelist for Pi-hole (https://pi-hole.net/) and Nebulo (https://github.com/Ch4t4r/Nebulo - only txt file is used).<br></br>
 The script whitelist.sh and whitelist_singole_abilitazioni.sh for pihole, are based on script created by: GSolone (https://raw.githubusercontent.com/gioxx/ph-whitelist/master/scripts/whitelist.sh).<br></br>
 
-In the script whitelist.sh, anudeepND whitelist (https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) is also included
 <br></br>
-The file "whitelist_full.txt" , "whitelist_base.txt" and files present in the "In_base_al_servizio" directory were mainly created using the pihole personally, 
+The files present in the "In_base_al_servizio" directory were mainly created using the pihole personally, 
 or taken from reported sources (for example for disneyplus which comes from OpenDns), or even from public reports present on https://www.reddit.com/r/pihole/
 
-Copyright 2018 AnudeepND and gioxx
+Copyright 2018 gioxx and bubusan80
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
