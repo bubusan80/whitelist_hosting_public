@@ -1,7 +1,7 @@
 #!/bin/bash
 # Whitelist for Pi-hole (https://pi-hole.net/) and Nebulo (https://github.com/Ch4t4r/Nebulo - only txt file)
 # This script only supports pi-holes
-#Based on the original script created by: GSolone - https://github.com/gioxx
+# Based on the original script created by: GSolone - https://github.com/gioxx
 #============================================================================================================
 
 TICK="[\e[32m ✔ \e[0m]"
