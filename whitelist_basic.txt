@@ -152,6 +152,7 @@ excalidraw.com
 v.firebog.net
 raw.githubusercontent.com
 github.com
+github.io
 #Wisecleaner
 wisecleaner.com
 downloads.wisecleaner.com
