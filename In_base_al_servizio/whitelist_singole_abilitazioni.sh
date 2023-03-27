@@ -237,6 +237,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
+		;:
+	paramountplus)
+		echo "Download... "
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+		wait
+		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
+		echo -e " ${NOADS} "
 		;;
 	rai_streaming_e_app)
 		echo "Download... "
@@ -389,6 +402,10 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paypal.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Paramountplus..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Rai_streaming_e_app..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Rai_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
@@ -480,6 +497,10 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paypal.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Paramountplus..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+                wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Rai_streaming_e_app..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Rai_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
@@ -546,6 +567,7 @@ case "$1" in
 		echo "netflix"
 		echo "operatore_tim_e_modem"
 		echo "paypal"
+		echo "paramountplus"
 		echo "rai_streaming_e_app"
 		echo "samsung_servizi"
 		echo "sisal"
