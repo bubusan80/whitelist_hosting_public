@@ -53,6 +53,8 @@
 # sudo ./whitelist_singole_abilitazioni.sh operatore_tim_e_modem
 # Per abilitare il servizio/sito web paypal eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh paypal
+# Per abilitare il servizio/sito web Paramount+ eseguire il seguente comando:
+# sudo ./whitelist_singole_abilitazioni.sh web paramountplus
 # Per abilitare il servizio/sito web rai_streaming_e_app eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
 # Per abilitare il servizio/sito web samsung_servizi eseguire il seguente comando:
@@ -102,6 +104,7 @@ sudo ./whitelist_singole_abilitazioni.sh upgrade
 # netflix
 # operatore_tim_e_modem
 # paypal
+# paramountplus
 # rai_streaming_e_app
 # samsung_servizi
 # sisal
