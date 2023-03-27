@@ -237,7 +237,7 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
-		;:
+		;;
 	paramountplus)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
