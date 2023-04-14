@@ -91,3 +91,4 @@ xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com
 xsts.auth.xboxlive.com
 xtelogin.xbox.com
+ocsp.digicert.com
