@@ -582,6 +582,7 @@ case "$1" in
 		echo "games_e_console"
 		echo "google_chrome_dns"
 		echo "google_servizi"
+		echo "hola_vpn"
 		echo "iobit"
 		echo "microsoft_pc_e_app_su_smartphone"
 		echo "mozilla_firefox"
