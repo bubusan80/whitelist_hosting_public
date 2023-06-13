@@ -18,3 +18,4 @@ gs.apple.com
 itunes.apple.com
 mzstatic.com
 phobos.apple.com
+secure-appldnld.apple.com
