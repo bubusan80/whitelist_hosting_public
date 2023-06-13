@@ -443,6 +443,10 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo "Download whitelist of bubusan80 - Wisecleaner..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+                wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
 		echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
@@ -537,6 +541,11 @@ case "$1" in
 		echo "Download whitelist of bubusan80 - Wisecleaner..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
+		wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo "Download whitelist of bubusan80 - Wisecleaner..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+                wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
 		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
