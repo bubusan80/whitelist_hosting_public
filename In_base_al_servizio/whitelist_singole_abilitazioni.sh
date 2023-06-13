@@ -329,6 +329,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+	Hola_vpn)
+	        echo "Download... "
+	        curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+                echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+                wait
+                echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+                ${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+                echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+                echo -e " ${TICK} \e[32m Ok! \e[0m"
+                echo -e " ${NOADS} "
+                ;;
 	All)
                 echo "Download whitelist of bubusan80 - Abilitazioni_host..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Abilitazioni_host_video.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
