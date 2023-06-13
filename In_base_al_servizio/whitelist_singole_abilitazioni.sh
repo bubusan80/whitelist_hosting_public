@@ -329,7 +329,7 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
-	Hola_vpn)
+	hola_vpn)
 	        echo "Download... "
 	        curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
                 echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
