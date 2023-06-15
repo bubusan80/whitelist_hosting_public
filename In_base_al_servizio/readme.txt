@@ -100,6 +100,7 @@ sudo ./whitelist_singole_abilitazioni.sh upgrade
 # games_e_console
 # google_chrome_dns
 # google_servizi
+# hola_vpn
 # iobit
 # microsoft_pc_e_app_su_smartphone
 # mozilla_firefox
