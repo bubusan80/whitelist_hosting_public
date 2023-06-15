@@ -43,6 +43,8 @@
 # sudo ./whitelist_singole_abilitazioni.sh google_servizi
 # Per abilitare il servizio/sito web iobit eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh iobit
+# Per abilitare il servizio/sito hola vpn eseguire il seguente comando:
+# sudo ./whitelist_singole_abilitazioni.sh hola_vpn
 # Per abilitare il servizio/sito web microsoft_pc_e_app_su_smartphone eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh microsoft_pc_e_app_su_smartphone
 # Per abilitare il servizio/sito web mozilla_firefox eseguire il seguente comando:
