@@ -611,6 +611,7 @@ case "$1" in
 		echo "operatore_tim_e_modem"
 		echo "paypal"
 		echo "paramountplus"
+		echo "posteitaliane"  
 		echo "rai_streaming_e_app"
 		echo "samsung_servizi"
 		echo "sisal"
