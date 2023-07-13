@@ -56,11 +56,13 @@
 # Per abilitare il servizio/sito web paypal eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh paypal
 # Per abilitare il servizio/sito web Paramount+ eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh web paramountplus
+# sudo ./whitelist_singole_abilitazioni.sh paramountplus
+# Per abilitare il servizio/sito web Poste (Poste italiane) eseguire il seguente comando:
+# sudo ./whitelist_singole_abilitazioni.sh posteitaliane
 # Per abilitare il servizio/sito web rai_streaming_e_app eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
 # Per abilitare il servizio/sito web samsung_servizi eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.shsamsung_servizi
+# sudo ./whitelist_singole_abilitazioni.sh samsung_servizi
 # Per abilitare il servizio/sito web sisal eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh sisal
 # Per abilitare il servizio/sito web torrent_download eseguire il seguente comando:
@@ -68,10 +70,10 @@
 # Per abilitare il servizio/sito web utility_varie eseguire il seguente comando:
 # sudo ./whitelist_singole_abilitazioni.sh utility_varie
 # Per abilitare il servizio/sito web wisecleaner eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh web wisecleaner
+# sudo ./whitelist_singole_abilitazioni.sh wisecleaner
 # In futuro molto propabilmente sarà necessario effettuare un aggiornamento allo script prima di lanciarlo nuovamente, è quindi presente 
 # anche l'opzione upgrade:
-sudo ./whitelist_singole_abilitazioni.sh upgrade
+# sudo ./whitelist_singole_abilitazioni.sh upgrade
 # Ultima opzione è la cancellazione completa della whitelist del pihole, Attenzione ad eseguire questo comando in quanto ripeto effettuerà 
 # la cancellazione completa di tutta la whitelist è vostro compito effettuare un backup prima:
 # sudo ./whitelist_singole_abilitazioni.sh clear
@@ -99,6 +101,7 @@ sudo ./whitelist_singole_abilitazioni.sh upgrade
 # eon_energia
 # games_e_console
 # google_chrome_dns
+# google_pubblicita
 # google_servizi
 # hola_vpn
 # iobit
@@ -108,6 +111,7 @@ sudo ./whitelist_singole_abilitazioni.sh upgrade
 # operatore_tim_e_modem
 # paypal
 # paramountplus
+# posteitaliane
 # rai_streaming_e_app
 # samsung_servizi
 # sisal
