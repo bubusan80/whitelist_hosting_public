@@ -53,6 +53,7 @@ store-site-backend-static-ipv4.ak.epicgames.com
 talon-service-prod.ecosec.on.epicgames.com
 tracking.epicgames.com
 xmpp-service-prod.ol.epicgames.com
+unagi.amazon.it
 #PLAYSTATION
 telemetry.api.playstation.com
 smetrics.aem.playstation.com
