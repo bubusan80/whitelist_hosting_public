@@ -15,3 +15,6 @@ fls-eu.amazon.com
 device-metrics-us-2.amazon.com
 images-amazon.com
 amazonaws.com
+unagi.amazon.it
+www.amazon.com
+msh.amazon.co.uk
