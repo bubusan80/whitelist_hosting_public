@@ -43,33 +43,11 @@
 # for example:d
 # sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
 # to enable streaming and mobile apps for italian rai tv
-# Here is the list of options to choose to use the script:
-# host_video
-# aliexpress_alibaba
-# amazon_e_servizi_aws
-# ampproject
-# apple
-# bootstrapcdn
-# disneyplus_by_opendns
-# eon_energia
-# games_e_console
-# google_chrome_dns
-# google_pubblicita
-# google_servizi
-# hola_vpn
-# iobit
-# microsoft_pc_e_app_su_smartphone
-# mozilla_firefox
-# netflix
-# operatore_tim_e_modem
-# paypal
-# paramountplus
-# posteitaliane
-# rai_streaming_e_app
-# samsung_servizi
-# sisal
-# torrent_download
-# utility_varie
-# wisecleaner
-# upgrade
-# clear
+# to know all the options launch the command:
+# sudo ./whitelist_singole_abilitazioni.sh *
+# In the future it will most likely be necessary to update the script before launching it again, so it is present
+# also the upgrade option:
+# sudo ./whitelist_singole_abilitazioni.sh upgrade
+# Last option is the complete deletion of the pihole whitelist. Be careful when executing this command as I repeat it will
+# the complete deletion of the entire whitelist is your responsibility to make a backup first:
+# sudo ./whitelist_single_enablements.sh clear
