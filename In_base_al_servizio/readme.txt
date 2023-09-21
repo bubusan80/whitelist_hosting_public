@@ -39,8 +39,7 @@
 # use these commands to install the script:
 # wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 # chmod +x whitelist_singole_abilitazioni.sh
-# It is possible to launch the script indicate a relative option:
-# for example:d
+# It is possible to launch the script indicate a relative option, for example:
 # sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
 # to enable streaming and mobile apps for italian rai tv
 # to know all the options launch the command:
