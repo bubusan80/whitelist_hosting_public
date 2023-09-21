@@ -18,8 +18,8 @@
 # wget -N https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/whitelist_singole_abilitazioni.sh
 # Una volta scaricato è necessario dare un comando per rendere il file eseguibile:
 # chmod u+x whitelist_singole_abilitazioni.sh
-# Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto è possibile scegliere il comando da lanciare:
-# Per abilitare il servizio/sito web host_video:
+# Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto è possibile scegliere il comando da lanciare.
+# Ad esempio per abilitare il servizio/sito web host_video:
 # sudo ./whitelist_singole_abilitazioni.sh host_video 
 # ...
 # per conoscere tutte le opzioni lanciare il comando:
