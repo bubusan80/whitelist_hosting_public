@@ -108,6 +108,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+	discord)
+		echo "Download... "
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Discord.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+		wait
+		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
+		echo -e " ${NOADS} "
+		;;
 	eon_energia)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -160,6 +173,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+	hola_vpn)
+	        echo "Download... "
+	        curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+                echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+                wait
+                echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+                ${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+                echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+                echo -e " ${TICK} \e[32m Ok! \e[0m"
+                echo -e " ${NOADS} "
+                ;;
 	iobit)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Iobit.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -342,19 +368,6 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
-	hola_vpn)
-	        echo "Download... "
-	        curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
-                echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
-                wait
-                echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
-                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-                echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
-                ${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
-                echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
-                echo -e " ${TICK} \e[32m Ok! \e[0m"
-                echo -e " ${NOADS} "
-                ;;
 	All)
                 echo "Download whitelist of bubusan80 - Abilitazioni_host..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Abilitazioni_host_video.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -380,9 +393,13 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Bootstrapcdn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Discord..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Discord.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Disneyplus_by_opendns..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Disneyplus_by_opendns.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
-		wait
+                wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Eon_energia..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -499,6 +516,10 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Disneyplus_by_opendns.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Discord..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Discord.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Eon_energia..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
@@ -598,7 +619,8 @@ case "$1" in
 		echo "ampproject"
 		echo "apple"
 		echo "bootstrapcdn"
-		echo "disneyplus_by_opendns"
+		echo "discord"
+                echo "disneyplus_by_opendns"
 		echo "eon_energia"
 		echo "games_e_console"
 		echo "google_chrome_dns"
