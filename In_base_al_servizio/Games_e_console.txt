@@ -61,6 +61,7 @@ telemetry-console.api.playstation.com
 telemetry-cii.api.playstation.com
 aem.playstation.com.ssl.d1.sc.omtrdc.net
 click.txn-email.account.sony.com
+id.sonyentertainmentnetwork.com
 #XBOX
 activity.windows.com
 account.xbox.com
