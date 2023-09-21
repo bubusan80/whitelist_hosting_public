@@ -21,56 +21,9 @@
 # Ora in base alle vostre personali esigenze e quindi al servizio/sito web scelto è possibile scegliere il comando da lanciare:
 # Per abilitare il servizio/sito web host_video:
 # sudo ./whitelist_singole_abilitazioni.sh host_video 
-# Per abilitare il servizio/sito web aliexpress_alibaba eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh aliexpress_alibaba
-# Per abilitare il servizio/sito web amazon_e_servizi_aws eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh amazon_e_servizi_aws
-# Per abilitare il servizio/sito web ampproject eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh ampproject
-# Per abilitare il servizio/sito web apple eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh apple
-# Per abilitare il servizio/sito web bootstrapcdn eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh bootstrapcdn
-# Per abilitare il servizio/sito web disneyplus_by_opendns eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh disneyplus_by_opendns
-# Per abilitare il servizio/sito web eon_energia eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh eon_energia
-# Per abilitare il servizio/sito web games_e_console eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh games_e_console
-# Per abilitare il servizio/sito web google_chrome_dns eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh google_chrome_dn
-# Per abilitare il servizio/sito web google_servizi eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh google_servizi
-# Per abilitare il servizio/sito web iobit eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh iobit
-# Per abilitare il servizio/sito hola vpn eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh hola_vpn
-# Per abilitare il servizio/sito web microsoft_pc_e_app_su_smartphone eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh microsoft_pc_e_app_su_smartphone
-# Per abilitare il servizio/sito web mozilla_firefox eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh mozilla_firefox
-# Per abilitare il servizio/sito web netflix eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh netflix
-# Per abilitare il servizio/sito web operatore_tim_e_modem eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh operatore_tim_e_modem
-# Per abilitare il servizio/sito web paypal eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh paypal
-# Per abilitare il servizio/sito web Paramount+ eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh paramountplus
-# Per abilitare il servizio/sito web Poste (Poste italiane) eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh posteitaliane
-# Per abilitare il servizio/sito web rai_streaming_e_app eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh rai_streaming_e_app
-# Per abilitare il servizio/sito web samsung_servizi eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh samsung_servizi
-# Per abilitare il servizio/sito web sisal eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh sisal
-# Per abilitare il servizio/sito web torrent_download eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh torrent_download
-# Per abilitare il servizio/sito web utility_varie eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh utility_varie
-# Per abilitare il servizio/sito web wisecleaner eseguire il seguente comando:
-# sudo ./whitelist_singole_abilitazioni.sh wisecleaner
+# ...
+# per conoscere tutte le opzioni lanciare il comando:
+# sudo ./whitelist_singole_abilitazioni.sh *
 # In futuro molto propabilmente sarà necessario effettuare un aggiornamento allo script prima di lanciarlo nuovamente, è quindi presente 
 # anche l'opzione upgrade:
 # sudo ./whitelist_singole_abilitazioni.sh upgrade
