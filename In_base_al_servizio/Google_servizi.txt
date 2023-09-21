@@ -11,3 +11,6 @@ imasdk.googleapis.com
 gstaticadssl.l.google.com
 fonts.gstatic.com
 analytics.google.com
+accounts.google.com
+storage.googleapis.com
+marketingplatform.google.com
