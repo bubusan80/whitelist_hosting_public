@@ -355,9 +355,9 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
-        xbox)
+        wisecleaner)
 		echo "Download... "
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Xbox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
@@ -368,9 +368,10 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
-	wisecleaner)
+  
+        xbox)
 		echo "Download... "
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Xbox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
