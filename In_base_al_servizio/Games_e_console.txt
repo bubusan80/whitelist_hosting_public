@@ -54,11 +54,3 @@ talon-service-prod.ecosec.on.epicgames.com
 tracking.epicgames.com
 xmpp-service-prod.ol.epicgames.com
 unagi.amazon.it
-#PLAYSTATION
-telemetry.api.playstation.com
-smetrics.aem.playstation.com
-telemetry-console.api.playstation.com
-telemetry-cii.api.playstation.com
-aem.playstation.com.ssl.d1.sc.omtrdc.net
-click.txn-email.account.sony.com
-id.sonyentertainmentnetwork.com
