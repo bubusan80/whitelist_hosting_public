@@ -132,9 +132,9 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
-	games_e_console)
+	games_pc)
 		echo "Download... "
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_e_console.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_pc.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 		wait
 		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
@@ -430,8 +430,8 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-		echo "Download whitelist of bubusan80 - Games_e_console..."
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_e_console.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo "Download whitelist of bubusan80 - Games_pc..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_pc.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Google_chrome_dns..."
@@ -557,8 +557,8 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Eon_energia.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
-		echo "Download whitelist of bubusan80 - Games_e_console..."
-		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_e_console.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo "Download whitelist of bubusan80 - Games_pc..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Games_pc.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
                 mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
                 echo "Download whitelist of bubusan80 - Hola_vpn..."
@@ -663,7 +663,7 @@ case "$1" in
 		echo "discord"
                 echo "disneyplus_by_opendns"
 		echo "eon_energia"
-		echo "games_e_console"
+		echo "games_pc"
 		echo "google_chrome_dns"
 		echo "google_servizi"
 		echo "hola_vpn"
@@ -674,6 +674,7 @@ case "$1" in
 		echo "operatore_tim_e_modem"
 		echo "paypal"
 		echo "paramountplus"
+                echo "playstation"
 		echo "posteitaliane"  
 		echo "rai_streaming_e_app"
 		echo "samsung_servizi"
