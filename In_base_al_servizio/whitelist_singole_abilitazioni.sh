@@ -355,6 +355,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+        xbox)
+		echo "Download... "
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Xbox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+		wait
+		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
+		echo -e " ${NOADS} "
+		;;
 	wisecleaner)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Wisecleaner.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -479,6 +492,10 @@ case "$1" in
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
                 echo "Download whitelist of bubusan80 - Hola_vpn..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo "Download whitelist of bubusan80 - Xbox..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Xbox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
                 wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
@@ -586,6 +603,10 @@ case "$1" in
                 mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
                 echo "Download whitelist of bubusan80 - Hola_vpn..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Hola_vpn.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+                echo "Download whitelist of bubusan80 - Xbox..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Xbox.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
                 wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
@@ -639,6 +660,7 @@ case "$1" in
 		echo "sisal"
 		echo "torrent_download"
 		echo "utility_varie"
+                echo "xbox"
 		echo "wisecleaner"
 		echo "All"
 		echo "All_no_google"
