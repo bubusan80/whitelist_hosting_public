@@ -275,6 +275,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+	playstation)
+		echo "Download... "
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Playstation.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+		wait
+		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
+		echo -e " ${NOADS} "
+		;;
 	posteitaliane)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Posteitaliane.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -465,6 +478,10 @@ case "$1" in
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Playstation..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Playstation.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Posteitaliane..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Posteitaliane.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
@@ -575,6 +592,10 @@ case "$1" in
 		echo "Download whitelist of bubusan80 - Paramountplus..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/paramountplus.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Playstation..."
+                curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/playstation.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+	        wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Posteitaliane..."
                 curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Posteitaliane.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
