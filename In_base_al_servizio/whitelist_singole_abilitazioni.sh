@@ -197,6 +197,19 @@ case "$1" in
 		echo -e " ${TICK} \e[32m Ok! \e[0m"
 		echo -e " ${NOADS} "
 		;;
+  	mediaset_streaming_e_app)
+		echo "Download... "
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Mediaset_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
+		wait
+		echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
+		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo -e " [...] \e[32m Pi-hole whitelist rebuilding lists. This may take a while... \e[0m"
+		${GRAVITY_UPDATE_COMMAND} $(cat /etc/pihole/whitelist.txt | xargs) > /dev/null
+		echo -e " ${TICK} \e[32m Pi-hole's whitelist updated \e[0m"
+		echo -e " ${TICK} \e[32m Ok! \e[0m"
+		echo -e " ${NOADS} "
+		;;
 	microsoft_pc_e_app_su_smartphone)
 		echo "Download... "
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Microsoft_pc_e_app_su_smartphone.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -453,6 +466,10 @@ case "$1" in
 		echo "Download whitelist of bubusan80 - Iobit..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Iobit.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Microsoft_pc_e_app_su_smartphone..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Mediaset_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Microsoft_pc_e_app_su_smartphone..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Microsoft_pc_e_app_su_smartphone.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
@@ -567,6 +584,10 @@ case "$1" in
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Iobit..."
 		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Iobit.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+		wait
+                mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
+		echo "Download whitelist of bubusan80 - Microsoft_pc_e_app_su_smartphone..."
+		curl -sS https://raw.githubusercontent.com/bubusan80/whitelist_hosting_public/main/In_base_al_servizio/Mediaset_streaming_e_app.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 		wait
 		mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.bck && cat "${PIHOLE_LOCATION}"/whitelist.txt.bck | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 		echo "Download whitelist of bubusan80 - Microsoft_pc_e_app_su_smartphone..."
