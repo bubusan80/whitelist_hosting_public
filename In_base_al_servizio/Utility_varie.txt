@@ -7,3 +7,4 @@ github.com
 mandrillapp.com
 chiark.greenend.org.uk
 greenend.org.uk
+api-app.io.pagopa.it
