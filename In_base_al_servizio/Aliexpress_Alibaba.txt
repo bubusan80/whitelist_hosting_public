@@ -2,3 +2,9 @@
 us.ynuf.aliapp.org
 fourier.taobao.com
 track.aliexpress.com
+login.aliexpress.us
+login.aliexpress.com
+www.aliexpress.com
+assets.alicdn.com
+best.aliexpress.com
+s.click.aliexpress.com
