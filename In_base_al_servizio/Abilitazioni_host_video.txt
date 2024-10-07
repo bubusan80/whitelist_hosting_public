@@ -2,3 +2,5 @@
 cdn.privatehost.com
 cdn.fluidplayer.com
 jwplayer.com
+youtube.com
+www.youtube.com
