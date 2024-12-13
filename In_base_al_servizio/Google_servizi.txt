@@ -14,3 +14,4 @@ analytics.google.com
 accounts.google.com
 storage.googleapis.com
 marketingplatform.google.com
+docs.google.com
