@@ -8,3 +8,4 @@ www.aliexpress.com
 assets.alicdn.com
 best.aliexpress.com
 s.click.aliexpress.com
+it.aliexpress.com
