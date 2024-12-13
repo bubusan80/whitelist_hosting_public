@@ -7,3 +7,4 @@ aem.playstation.com.ssl.d1.sc.omtrdc.net
 click.txn-email.account.sony.com
 id.sonyentertainmentnetwork.com
 telemetry-web.api.playstation.com
+eve.playstation.com
