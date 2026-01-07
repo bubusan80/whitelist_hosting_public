@@ -1,4 +1,4 @@
-#Apple
+#Apple-tale lista è utile per dispositivi della apple come Iphone,Ipad,Mac etc
 appleid.apple.com
 ax.phobos.apple.com.edgesuite.net
 ocsp.apple.com
