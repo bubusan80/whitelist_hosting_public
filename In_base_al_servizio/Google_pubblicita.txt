@@ -1,4 +1,4 @@
-#Google_sblocco_pubblicità_devono_essereabilitati_anche_gli_altri_gruppi_google
+#Google sblocco di alcuni domini per pubblicità per funzionamento app e giochi
 pagead2.googleadservices.com
 pagead2.googlesyndication.com
 tpc.googlesyndication.com
